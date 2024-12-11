@@ -279,7 +279,8 @@ header {
      
 /* About Us Page*/
      .story {
-      float: left;
+       display: flex:
+       float: left;
        width: 40%;
        padding: 100px 200px;
        background: grey;
