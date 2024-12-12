@@ -384,11 +384,11 @@ body {
 }
 .card-image2 {
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 .card-image3 {
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 .card-title {
   font-size: 1.25rem;
