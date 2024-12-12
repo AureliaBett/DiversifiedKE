@@ -111,6 +111,7 @@ header {
 
 .hero-content {
   max-width: 100%;
+  text-align: center;
 }
 
 .hero h1 {
