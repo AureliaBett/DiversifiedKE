@@ -82,6 +82,11 @@ header {
   display: flex;
   gap: 20px;
 }
+.sidebar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
 .nav-links li a {
   font-weight: 600;
