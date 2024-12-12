@@ -403,5 +403,30 @@ header {
 
 .card-description {
   font-size: 1rem;
+  
   margin: 0 1rem 1.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .program-cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  .hero {
+    padding: 30px 10px;
+  }
+
+  .story {
+    padding: 30px 10px;
+  }
+
+  .more-section {
+    padding: 30px 10px;
+  }
 }
