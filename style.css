@@ -353,6 +353,7 @@ header {
 .programs {
   text-align: center;
   padding: 2rem;
+  background: #131720;
 }
 
 .programs-description {
