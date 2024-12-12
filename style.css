@@ -83,9 +83,14 @@ header {
   gap: 20px;
 }
 .sidebar {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+  position: fixed;
+  top: 0;
+  height: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: grey;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1)
 }
 
 .nav-links li a {
