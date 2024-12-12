@@ -412,9 +412,8 @@ header {
 @media (max-width: 768px) {
   .navbar {
   
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+     flex-direction: column;
+    align-items: flex-start;
   }
   .program-cards {
   display: flex;
