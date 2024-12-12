@@ -436,7 +436,10 @@ header {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    .hideOnMobile{ 
+        display: none;
+    }
   .navbar {
   
      flex-direction: column;
