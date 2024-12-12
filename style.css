@@ -377,11 +377,18 @@ body {
   text-align: center;
 }
 
-.card-image {
+.card-image1 {
   width: 10%;
   height: auto;
 }
-
+.card-image2 {
+  width: 20%;
+  height: auto;
+}
+.card-image3 {
+  width: 10%;
+  height: auto;
+}
 .card-title {
   font-size: 1.25rem;
   margin: 1rem 0 0.5rem;
