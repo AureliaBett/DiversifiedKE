@@ -45,7 +45,9 @@ header {
   align-items: center;
   padding: 30px 30px;
   background: #2b2a2a;
-  border-bottom: 2px solid orange;
+  border-bottom: 5px solid; /* Border width */
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+
 }
 
 .thumbnail{
