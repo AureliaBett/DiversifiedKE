@@ -40,6 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px;
+  background: #404141;
   border-bottom: 2px solid orange;
 }
 
