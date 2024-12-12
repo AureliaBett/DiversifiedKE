@@ -381,15 +381,18 @@ body {
 
 .card-image1 {
   width: 100%;
-  height: 50%;
+  height: auto;
+  display: block;
 }
 .card-image2 {
   width: 100%;
-  height: 50%;
+  height: auto;
+  display: block;
 }
 .card-image3 {
   width: 100%;
-  height: 50%;
+  height: auto;
+  display: block;
 }
 .card-title {
   font-size: 1.25rem;
