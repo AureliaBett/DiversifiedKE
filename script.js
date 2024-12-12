@@ -19,3 +19,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
+  cards.forEach(card => {
+    card.style.transition = "transform 0.3s";
+    card.addEventListener("mouseenter", () => {
+      card.style.transform = "scale(1.05)";
+    });
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "scale(1)";
+    });
+  });
+});
