@@ -96,6 +96,10 @@ header {
     align-items: flex-start;
     justify-content: flext-start;
 }
+.sidebar li{
+    width: 100%;
+    
+}
 
 .nav-links li a {
   font-weight: 600;
