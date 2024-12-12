@@ -372,9 +372,10 @@ body {
 .card {
   background-color: #222;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   text-align: center;
 }
 
