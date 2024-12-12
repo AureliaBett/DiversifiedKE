@@ -149,7 +149,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 50px 20px;
-  background: #f8f9fa;
+  background: #2b2a2a;;
   border-top: 5px solid darkgrey; 
   border-bottom: 5px solid darkgrey;
   
@@ -173,7 +173,7 @@ header {
      
 .litigation-section{
   padding: 50px 20px;
-  background: #6f7070;
+  background:#2b2a2a;;
   border-top: 5px solid #ade6ae; 
 }
 .media-section{
