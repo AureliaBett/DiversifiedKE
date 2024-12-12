@@ -97,14 +97,11 @@ header {
     align-items: flex-start;
     justify-content: flext-start;
 }
-.sidebar li {
+.sidebar li a {
     width: 100%;
-    
+    font-weight: 600;
 }
-.sidebar a {
-    width: 100%;
-    
-}
+
 .nav-links li a {
   font-weight: 600;
 }
