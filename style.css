@@ -339,3 +339,56 @@ header {
    align-items: center; /* Vertically center content */
    justify-content: center; /* Horizontally center content */
    }
+
+/* The Ways To Help Section*/
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.programs {
+  text-align: center;
+  padding: 2rem;
+}
+
+.programs-description {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+}
+
+.program-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.card-description {
+  font-size: 1rem;
+  margin: 0 1rem 1.5rem;
+}
+
