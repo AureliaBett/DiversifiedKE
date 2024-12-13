@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DONATE</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Optional: Add font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
 
+<body>
+ 
+
+  <header>
+    <!-- Top bar with language toggle -->
+    <div class="top-bar">
+      <div class="language">
+        <a href="#">Swahili</a> | <a href="#">English</a>
+      </div>
+      <div class="social-icons">
+        <a href="#">🔍</a>
+        <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" target="_blank" class="instagram-button">
+          <i class="fab fa-instagram"></i>
+    Visit Instagram </a>  
+        <a href="#">🔗</a>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo"> 
+        <img src="favicon.jpg" class="thumbnail" alt="Logo">
+      </div>
+
+      
+       <ul class="sidebar" id="nav-links">
+        <li  onclick = hideSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li onclick = programs()><a href="programs.html">Our Programs</a></li>
+        <li><a href="media.html">News & Media</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav-links" id="nav-links">
+        <li class = "hideOnMobile" ><a href="index.html">Home</a></li>
+        <li class = "hideOnMobile" ><a href="about.html">About Us</a></li>
+        <li class = "hideOnMobile" ><a href="programs.html">Our Programs</a></li>
+        <li class = "hideOnMobile" ><a href="media.html">News & Media</a></li>
+        <li class = "hideOnMobile" ><a href="contact.html">Contact Us</a></li>
+         <li onclick = showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="52px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+       
+      </ul>
+        
+      
+      <div class="cta-buttons">
+        <a href="#" class="donate-button" role="button">Donate</a>
+        <a href="#" class="btn volunteer">Volunteer</a>
+      </div>
+    </nav>
+  </header>
+  <!--
+  <section  class = "donatePage">
+    <div> 
+    <h1>Support Our Cause</h1>
+    <p>Thank you for choosing to support us. Please select your preferred donation method below:</p> </div>
+    <div class="paypal">
+      <a href="https://www.paypal.com/donate/?hosted_button_id=ZN9482AJLLTCC" target="_blank" class="donate-button">Donate via PayPal</a>
+      
+    </div class= "Stripe">
+    <div style="margin-top: 20px;">
+      <a href="https://www.stripe.com" target="_blank" class="donate-button">Donate via Stripe</a>
+    </div>
+    <div style="margin-top: 20px;">
+        <p style="font-size: 1.2rem;">Send your M-Pesa contribution to: <strong>+254 701 820 823</strong></p>
+      </div>
+    </section>-->
+
+    <section class="donateHere" aria-labelledby="donate-title">
+        <h2 id="donate-title">Support Our Cause</h2>
+        <p class="donateHere-description">
+            Thank you for choosing to support us. Please select your preferred payment method below:
+        </p>
+        <div class="donateHere-cards">
+          <div class="card1">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=ZN9482AJLLTCC" target="_blank" class="paypall">Donate via PayPal</a>
+            <h3 class="card-title1">Paypall</h3>
+            <p class="card-title1">Click on the link to proceed to our paypal</p>
+          </div>
+          <div class="card2">
+            <a href="https://www.stripe.com" target="_blank" class="stripe">Donate via Stripe</a>
+            <h3 class="card-title1">Stripe</h3>
+            <p class="card-title1">Click on the link to proceed to our stripe</p>
+          </div>
+          <div class="card3">
+            <p class="card-title1">Send your M-Pesa contribution to: <strong>+254 701 820 823</strong></p>
+            <h3 class="card-title1">Mpesa</h3>
+            <p class="card-title1">Contribute Directly to Our Mpesa</p>
+          </div>
+        </div>
+      </section>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
