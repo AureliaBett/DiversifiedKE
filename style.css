@@ -139,6 +139,7 @@ header {
   justify-content: space-between;
   padding: 50px 20px;
   background:url( Div\ Team.jpg) no-repeat center center/cover; margin: 0; padding: 0;
+  border-bottom: 5px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
 }
@@ -172,6 +173,7 @@ header {
 .content-section {
   padding: 50px 20px;
   background: #111;
+  border-bottom: 5px solid;
  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
 }
@@ -181,7 +183,7 @@ header {
   justify-content: space-between;
   padding: 50px 20px;
   background: #2b2a2a;;
-  border-top: 5px solid darkgrey; 
+  border-top: 5px ; 
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
   
@@ -205,13 +207,15 @@ header {
      
 .litigation-section{
   padding: 50px 20px;
-  background:#2b2a2a;;
+  background:#2b2a2a;
+ border-bottom: 5px solid;
  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
 }
 .media-section{
   padding: 50px 20px;
   background: #2b2a2a;
+  border-bottom: 5px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
 }
