@@ -9,34 +9,69 @@
 <body>
    <body style="background: url('Div.jpg') no-repeat center center/cover; margin: 0; padding: 0;">
 <!-- Navbar -->
+<header>
+  <!-- Top bar with language toggle -->
+  <div class="top-bar">
+    <div class="language">
+      <a href="#">Swahili</a> | <a href="#">English</a>
+    </div>
+    <div class="social-icons">
+      <a href="#">🔍</a>
+      <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" target="_blank" class="instagram-button">
+        <i class="fab fa-instagram"></i>
+  Visit Instagram </a>  
+      <a href="#">🔗</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
   <nav class="navbar">
     <div class="logo"> 
-      <img src="Div.jpg" class="thumbnail" alt="Logo">
+      <img src="favicon.jpg" class="thumbnail" alt="Logo">
     </div>
 
-    <button class="menu-toggle" id="menu-toggle">☰</button>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="index.html">Home</a></li>
+   
+     <ul class="sidebar" id="nav-links">
+      <li  onclick = hideSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
-      <li><a href="programs.html">Our Programs</a></li>
+      <li onclick = programs()><a href="programs.html">Our Programs</a></li>
       <li><a href="media.html">News & Media</a></li>
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
+    <ul class="nav-links" id="nav-links">
+      <li class = "hideOnMobile" ><a href="index.html">Home</a></li>
+      <li class = "hideOnMobile" ><a href="about.html">About Us</a></li>
+      <li class = "hideOnMobile" ><a href="programs.html">Our Programs</a></li>
+      <li class = "hideOnMobile" ><a href="media.html">News & Media</a></li>
+      <li class = "hideOnMobile" ><a href="contact.html">Contact Us</a></li>
+       <li onclick = showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="52px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+     
+    </ul>
+      
+    
     <div class="cta-buttons">
-      <a href="#" class="btn donate">Donate</a>
+      <a href="#" class="donate-button" role="button">Donate</a>
       <a href="#" class="btn volunteer">Volunteer</a>
     </div>
   </nav>
 </header>
 
+
+
 <!-- Hero Section -->
 <section id="about" class="story">
   <div class="story-content">
-    <h1>Diversified KE</h1>
-    <h2>A Message From Us</h2>
-    <p>You deserve a circle of inclusion and influence, but it is up to you to create it.</p>
+    <h1 class="st">Diversified KE</h1>
+    <h2 class="st">About Us</h2>
+    <p class="st">Welcome to Diversified Kenya, an Organization funded in 2022 to adress the unique challanges faced by LBQ persons.
+      We are passionate about creating a safe and inclusive enviroment for all members of the community.
+      Our mission is to educate, sensitize and empower individuals to live their lives without fear,
+      discrimination or prejudice. We believe that everyone deserves the right to love and live openly and authentically.
+      Join us in our mission by becoming a meber today
+    </p>
     <br>
-    <p>You deserve a circle of inclusion and influence, but it is up to you to create it.</p>
+    <p class="st"> You deserve a circle of inclusion and influence, but it is up to you to create it.</p>
   </div>
   
 </section>
@@ -46,7 +81,8 @@
   <h2>Our Story</h2>
   <p>Diversified is an independent firm dedicated to equality and inclusion.</p>
 </section>
-  <footer>
+  
+<footer>
     <p>&copy; Diversified. All rights reserved.</p>
   </footer>
 
