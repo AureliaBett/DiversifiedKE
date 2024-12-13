@@ -182,7 +182,7 @@ header {
  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;*/
 
 }
-.program-section{
+.team-section{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -216,6 +216,61 @@ header {
  border-bottom: 5px solid;
  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
+}
+
+.wayWeHelp {
+  text-align: center;
+  padding: 2rem;
+  background: #2b2a2a;
+}
+
+.programs-description {
+  max-width: 100%;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+}
+
+.program-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.card {
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card-image1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card-image2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card-image3 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card-title {
+  font-size: 1.25rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.card-description {
+  font-size: 1rem;
+  
+  margin: 0 1rem 1.5rem;
 }
 .media-section{
   padding: 50px 20px;
@@ -393,60 +448,7 @@ header {
 /* The Ways To Help Section*/
 /* styles.css */
 
-.programs {
-  text-align: center;
-  padding: 2rem;
-  background: #2b2a2a;
-}
 
-.programs-description {
-  max-width: 100%;
-  margin: 0 auto 2rem;
-  font-size: 1rem;
-}
-
-.program-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15rem;
-}
-
-.card {
-  background-color: #222;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  width: 100%;
-  max-width: 300px;
-  text-align: center;
-}
-
-.card-image1 {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.card-image2 {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.card-image3 {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.card-title {
-  font-size: 1.25rem;
-  margin: 1rem 0 0.5rem;
-}
-
-.card-description {
-  font-size: 1rem;
-  
-  margin: 0 1rem 1.5rem;
-}
 
 
 
