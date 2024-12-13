@@ -1,25 +1,68 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-
   <meta charset="UTF-8">
-  <title>Diversified KE</title>
-   <link rel="stylesheet" href="style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROGRAMS</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Optional: Add font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+ 
 
+  <header>
+    <!-- Top bar with language toggle -->
+    <div class="top-bar">
+      <div class="language">
+        <a href="#">Swahili</a> | <a href="#">English</a>
+      </div>
+      <div class="social-icons">
+        <a href="#">🔍</a>
+        <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" target="_blank" class="instagram-button">
+          <i class="fab fa-instagram"></i>
+    Visit Instagram </a>  
+        <a href="#">🔗</a>
+      </div>
+    </div>
 
-  <section id="programs" class="content-section">
-    <h2>Our Programs</h2>
-    <p1>Explore a range of programs designed to address key human rights issues and promote equality.
-    </p1>
-    <p2>Explore a range of programs designed to address key human rights issues and promote equality.
-      </p2>
-  </section>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo"> 
+        <img src="favicon.jpg" class="thumbnail" alt="Logo">
+      </div>
 
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+       <ul class="sidebar" id="nav-links">
+        <li  onclick = hideSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li onclick = programs()><a href="programs.html">Our Programs</a></li>
+        <li><a href="media.html">News & Media</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav-links" id="nav-links">
+        <li class = "hideOnMobile" ><a href="index.html">Home</a></li>
+        <li class = "hideOnMobile" ><a href="about.html">About Us</a></li>
+        <li class = "hideOnMobile" ><a href="programs.html">Our Programs</a></li>
+        <li class = "hideOnMobile" ><a href="media.html">News & Media</a></li>
+        <li class = "hideOnMobile" ><a href="contact.html">Contact Us</a></li>
+         <li onclick = showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="52px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+       
+      </ul>
+        
+      
+      <div class="cta-buttons">
+        <a href="#" class="donate-button" role="button">Donate</a>
+        <a href="#" class="btn volunteer">Volunteer</a>
+      </div>
+    </nav>
+  </header>
+ 
 
-  <!-- Link to the JavaScript file -->
+  
   <script src="script.js"></script>
 </body>
 </html>
+
