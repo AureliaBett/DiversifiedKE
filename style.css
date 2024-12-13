@@ -186,7 +186,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 50px 20px;
-  background: #2b2a2a;;
+  background: #2b2a2a;
   border-top: 5px solid; 
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
@@ -217,19 +217,19 @@ header {
 
 }
 
-.wayWeHelp {
+.waysWeHelp {
   text-align: center;
   padding: 2rem;
   background: #2b2a2a;
 }
 
-.programs-description {
+.waysWeHelp-description {
   max-width: 100%;
   margin: 0 auto 2rem;
   font-size: 1rem;
 }
 
-.program-cards {
+.waysWeHelp-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
