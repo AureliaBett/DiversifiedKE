@@ -193,7 +193,7 @@ header {
 
   
 }
- .program-image {
+ .team-image {
        max-width: 50%;
        border-radius: 10px;
      }    
@@ -208,8 +208,16 @@ header {
     margin-bottom: 20px;
     color: #000; 
     border-radius: 10px;
-          }
-     
+    }
+
+.contactUs-section{
+  padding: 50px 20px;
+  background:#2b2a2a;
+ border-bottom: 5px solid;
+ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+
+}
+
 .contact-section{
   padding: 50px 20px;
   background:#2b2a2a;
