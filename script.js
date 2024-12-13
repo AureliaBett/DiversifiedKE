@@ -62,7 +62,23 @@ document.querySelector('.donate-button').addEventListener('click', function(even
   // Redirect user to a payment page
   window.location.href = "payment.html";
 });
+// favicon
+function changeFavicon(url) {
+  const favicon = document.querySelector("link[rel='icon']");
+  if (favicon) {
+      favicon.href = url;
+  } else {
+      const newFavicon = document.createElement("link");
+      newFavicon.rel = "icon";
+      newFavicon.href = url;
+      document.head.appendChild(newFavicon);
+  }
+}
 
+// Example: Change favicon after 3 seconds
+setTimeout(() => {
+  changeFavicon("new-favicon.png"); // Replace with the new favicon URL
+}, 3000);
 
 
 
