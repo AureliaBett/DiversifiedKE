@@ -1,3 +1,4 @@
+
 // Smooth Scroll for internal links
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('a[href^="#"]').forEach(link => {
@@ -35,6 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+
+//Sidebar Menu 
  function showSidebar(){
       const sidebar = document.querySelector('.sidebar')
       sidebar.style.display ='flex'
@@ -44,6 +47,21 @@ document.addEventListener('DOMContentLoaded', () => {
       sidebar.style.display ='none'
 }
 
+
+//Donate Section
+document.querySelector('.donate-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Replace with your donation form or modal logic
+ // alert('Thank you for your interest in donating!');
+});
+
+document.querySelector('.donate-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Redirect user to a payment page
+  window.location.href = "payment.html";
+});
 
 
 
