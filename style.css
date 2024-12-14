@@ -752,10 +752,11 @@ flex-wrap: wrap;
     margin-bottom: 10px; /* Add spacing between rows */
   }
 
-  .table-content th {
-    background: #444; /* Optional: differentiate headers */
-    color: white;
-    font-weight: bold;
+   .table-content th, .table-content td {
+    display: block; /* Stack table rows for smaller screens */
+    text-align: left; /* Align text to the left for better readability */
+    width: 100%; /* Make each cell take full width */
+    padding: 10px; /* Add padding for better spacing */
   }
 
   .instagram-button {
