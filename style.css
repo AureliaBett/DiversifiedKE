@@ -738,11 +738,15 @@ flex-wrap: wrap;
   .table-content {
     width: 100%; /* Make table take full width */
     border-collapse: collapse; /* Adjust table layout for smaller screens */
-    display: block; /* Stack table rows for smaller screens */
-    text-align: left;
+   
   }
 
- 
+  .table-content th, .table-content td {
+  /* Stack table rows for smaller screens */
+    text-align: left; /* Align text to the left for better readability */
+    width: 100%; /* Make each cell take full width */
+    padding: 10px; /* Add padding for better spacing */
+  }
 
   .table-content tr {
     margin-bottom: 10px; /* Add spacing between rows */
