@@ -733,10 +733,12 @@ flex-wrap: wrap;
 } 
 .contactUs-section{
  display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-font-size: smaller;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 20px
+  font-size: smaller;
+   width: 100%
+  font-size: 1rem;
 
 }    
 }
