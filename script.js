@@ -62,7 +62,7 @@ document.querySelector('.donate-button').addEventListener('click', function(even
   // Redirect user to a payment page
   window.location.href = "payment.html";
 });
-// favicon
+// scripts.js
 function changeFavicon(url) {
   const favicon = document.querySelector("link[rel='icon']");
   if (favicon) {
