@@ -732,7 +732,9 @@ flex-wrap: wrap;
   border-radius: 10px;
 } 
 .contactUs-section{
-
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 padding: 50px 20px;
 
 }    
