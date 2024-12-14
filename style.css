@@ -731,16 +731,36 @@ flex-wrap: wrap;
   max-width: 100%;
   border-radius: 10px;
 } 
-.contactUs-section{
- display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 20px
-  font-size: smaller;
-   width: 100%
-  font-size: 1rem;
+.contactUs-section {
+    padding: 20px 10px; /* Reduce padding for smaller screens */
+  }
 
-}    
+  .table-content {
+    width: 100%; /* Make table take full width */
+    border-collapse: collapse; /* Adjust table layout for smaller screens */
+  }
+
+  .table-content th, .table-content td {
+    display: block; /* Stack table rows for smaller screens */
+    text-align: left; /* Align text to the left for better readability */
+    width: 100%; /* Make each cell take full width */
+    padding: 10px; /* Add padding for better spacing */
+  }
+
+  .table-content tr {
+    margin-bottom: 10px; /* Add spacing between rows */
+  }
+
+  .table-content th {
+    background: #444; /* Optional: differentiate headers */
+    color: white;
+    font-weight: bold;
+  }
+
+  .instagram-button {
+    display: inline-block; /* Ensure buttons fit within the screen */
+    margin-top: 10px; /* Add spacing for better layout */
+  }
 }
 
 @media (max-width: 400px) 
