@@ -157,7 +157,7 @@ background-color: #D63656; /* Slightly darker on hover */
 align-items: center;
 justify-content: space-between;
 padding: 50px 20px;
-background:url( Div\ Team.jpg) no-repeat center center/cover; margin: 0; padding: 0;
+background:url( team.jpg) no-repeat center center/cover; margin: 0; padding: 0;
 border-bottom: 5px solid; /* Border width */
 border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 
