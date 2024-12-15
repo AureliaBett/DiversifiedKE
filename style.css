@@ -140,6 +140,7 @@ border-radius: 5px;
 cursor: pointer;
 text-align: center;
 text-decoration: none; /* Remove underline */
+font-family: 'Times New Roman', Times, serif;
 }
 
 .instagram-button:hover {
@@ -310,7 +311,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
 .contactUs-section{
 text-align: center;
 display: list-item;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 padding: 50px 20px;
 background:#2b2a2a;
 border-bottom: 5px solid;
@@ -320,11 +321,23 @@ table-layout: auto;
 .table-content th, td{
 color: white;
 }
+.table-content p {
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  }
+  .socials{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+  } 
+
 .heading{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.5rem;
   font-style: italic;
   color: white;
+  font-size: 1.2rem;
 }
 
 .contact-section{
@@ -332,8 +345,8 @@ padding: 50px 20px;
 background:#2b2a2a;
 border-bottom: 5px solid;
 border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
-
 }
+
 
 .waysWeHelp {
 text-align: center;
@@ -758,7 +771,8 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 4rem;}
+      gap: 2rem;
+   max-width: 100%;}
 
 .program-cards {
 display: flex;
@@ -782,7 +796,13 @@ flex-wrap: wrap;
 .media-section{
   flex-direction: column;
   align-items: center;
-  width: 100%;}
+  width: 100%;
+  padding: 50px 0px;
+  gap: 4px}
+  
+  
+    
+
   .media-image{
     max-width: 100%;
     border-radius: 10px;
@@ -825,7 +845,7 @@ flex-wrap: wrap;
     margin-bottom: 10px; /* Add spacing between rows */
   }
 
-   .table-content th, .table-content td {
+   .table-content tr, .table-content td {
     display: block; /* Stack table rows for smaller screens */
     text-align: left; /* Align text to the left for better readability */
     width: 100%; /* Make each cell take full width */
@@ -836,6 +856,7 @@ flex-wrap: wrap;
     display: inline-block; /* Ensure buttons fit within the screen */
     margin-top: 10px; /* Add spacing for better layout */
   }
+
   .contactLocation{
     flex-direction: column;
     align-items: center;
@@ -849,7 +870,9 @@ flex-wrap: wrap;
       
       width: 100%;
       
-    }  
+    } 
+
+    
 }
 
 
