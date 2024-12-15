@@ -1,4 +1,3 @@
-
 // Smooth Scroll for internal links
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('a[href^="#"]').forEach(link => {
@@ -79,11 +78,4 @@ function changeFavicon(url) {
 setTimeout(() => {
   changeFavicon("new-favicon.png"); // Replace with the new favicon URL
 }, 3000);
-
-
-
-
-
-
-
 
