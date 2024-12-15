@@ -436,22 +436,62 @@ margin-bottom: 10px;
   border-top: 5px solid purple;
 }*/
    
- .contact-content {
-     float: left;
-     width: 30%;
-     height: 190vh;
-     padding: 100px 200px;
-     background: #fff;
-     /*border: 5px solid black;*/
-    /* border-bottom: 5px solid purple;*/
-    
-   }
- 
+
+.contactLocation{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+   
+  border-bottom: 5px solid; 
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+}
+  
+
+.contact-content {
+  float: left;
+  width: 40%;
+  height: 100vh;
+  padding: 100px 200px;
+  background: #fff;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form select {
+  width: 100%; /* Full width of the form container */
+  padding: 12px; /* Larger padding for bigger input boxes */
+  margin-bottom: 20px; /* Space between input boxes */
+  font-size: 16px; /* Larger text size */
+  border: 2px solid #ccc; /* Add a subtle border */
+  border-radius: 4px; /* Slight rounding of edges */
+  box-sizing: border-box; /* Ensures padding doesn’t exceed width */
+}
+
+#contact-form textarea {
+  height: 150px; /* Adjust height for the message box */
+  resize: vertical; /* Allows vertical resizing */
+}
+
+#contact-form button {
+  background-color: #000; /* Black background for button */
+  color: #fff; /* White text for button */
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #444; /* Slight hover effect */
+}
 
    .map-container {
      width: 60%;
      height: 100vh; /* Adjust height as needed */
      float: right;
+     
    }
 #contactus {
 color: black;
