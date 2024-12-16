@@ -79,3 +79,44 @@ setTimeout(() => {
   changeFavicon("new-favicon.png"); // Replace with the new favicon URL
 }, 3000);
 
+ // Handle form response for success/error messages
+ const form = document.getElementById('contact-form');
+ const responseMessage = document.getElementById('form-response');
+
+ form.addEventListener('submit', async (e) => {
+   e.preventDefault();
+   const formData = new FormData(form);
+
+   try {
+     const response = await fetch(form.action, {
+       method: 'POST',
+       body: formData,
+       headers: { 'Accept': 'application/json' }
+     });
+
+     if (response.ok) {
+       responseMessage.textContent = "Thank you! Your message has been sent.";
+       responseMessage.style.color = "green";
+     } else {
+       responseMessage.textContent = "Oops! Something went wrong, please try again.";
+       responseMessage.style.color = "red";
+     }
+     responseMessage.style.display = "block";
+   } catch (error) {
+     responseMessage.textContent = "An error occurred. Please try again later.";
+     responseMessage.style.color = "red";
+     responseMessage.style.display = "block";
+   }
+
+   form.reset();
+ });
+
+
+// Load contact-us.html into the footer element
+document.getElementById('header').innerHTML = fetch('header.html')
+.then(response => response.text())
+.then(html => document.getElementById('header').innerHTML = html);
+
+
+
+
