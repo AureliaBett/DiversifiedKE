@@ -575,37 +575,6 @@ color: black;
      display: block; /* Ensure the label appears on its own line */
    }
    
-/* Styles for the Donate and Volunteer buttons */
-
-/*.cta-buttons .btn {
-display: inline-block;
-width: 80px; 
-height: 80px; 
-text-align: center;
-line-height: 80px; 
-color: #fff; 
-font-weight: bold; 
-border-radius: 10px; 
-text-transform: uppercase; 
-font-size: 14px; 
-}
-
-.cta-buttons .donate {
-background-color: orange; /
-border: 2px solid orange; 
-}
-
-.cta-buttons .volunteer {
-background-color: yellow; 
-border: 2px solid yellow; 
-}
-
-
-.cta-buttons .btn:hover {
-opacity: 0.9; 
-transform: scale(1.05); 
-transition: all 0.3s ease-in-out; 
-}*/
 
    .additional-info {
      float: bottom;
@@ -788,26 +757,6 @@ transition: all 0.3s ease-in-out;
           font-style: normal;
         }
 
-/* About Us section
-.more-section {
-
- position: absolute;
- top: 70%; 
- left: 50%; 
- margin-bottom: 100%; 
- 
-
- width: 100%;
- height: 20vh; /* Full height of the viewport 
- background-color: #f8f9fa; /* Light gray background 
- display: flex;
- align-items: center; /* Vertically center content 
- justify-content: center; /* Horizontally center content 
- }*/
-
-/* The Ways To Help Section*/
-/* styles.css */
-
 /*DonatePage*/
 
 .donatePage{
@@ -928,7 +877,152 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
         .submit-btn:hover {
           background-color: #218838;
         }
+
+        /* News and media*/
+
+
+.social-handle{
+  color: rgb(138, 138, 252); /* Default icon color */
+  margin: 0 10px; /* Add space between icons */
+  transition: color 0.3s ease;
+}
   
+.social-handle:hover {
+    color:blue; /* Change icon color on hover */
+  }
+
+.majivunoDay{
+
+  background: #2b2a2a;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+    text-align: center;
+  font-size: 1.2rem;
+  text-align: center;
+ 
+  }
+  .majivuno-content {
+    max-width: 100%;
+    text-align: center;
+    
+    }
+.paragraph{
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  text-align: center;
+  }
+  
+.majivuno-image{
+ max-width: 50%;
+ 
+}
+.playdate{
+  
+  background: #2b2a2a;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.2rem;
+  text-align: center;
+ 
+  }
+.playdate-content {
+  max-width: 100%;
+  text-align: center;
+     }
+.playdate-image{
+ max-width: 50%;
+
+}
+.hike{
+  
+  background: #2b2a2a;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.2rem;
+  text-align: center;
+ 
+  }
+.hike-content {
+  max-width: 100%;
+  text-align: center;
+     }
+.hike-image{
+ max-width: 50%;
+
+}
+
+
+ .media-section{
+  padding: 10px 10px;
+  background: #2b2a2a;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  }
+          
+.media-section p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  color:white;
+  }
+
+
+          
+  .media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .media-image1 {
+    max-width: 40%;
+    border-radius: 10px;
+  }
+  .media-image2 {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  .media-image3 {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  .media-image4 {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+      
+  
+
+
+
+
+
+
+
+  .content-section h2 {
+          
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  }
+          
+          
+          
+          
+             
 
 
 
@@ -1055,7 +1149,30 @@ flex-wrap: wrap;
       margin: 0 auto; /* Center the content */
       height: auto; /* Allow content to adjust height naturally */
     } 
-    
+.majivunoDay{
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }  
+  .majivuno-image{
+       
+    max-width: 100%; }  
+.playdate{
+flex-direction: column;
+align-items: center;
+width: 100%;
+flex-direction: column-reverse;  }  
+
+  .playdate-image{
+         
+  max-width: 100%; } 
+  .hike{
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }  
+    .hike-image{
+         
+      max-width: 100%; }   
+  
 }
 
 
