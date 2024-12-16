@@ -4,6 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconify/iconify@2.1.0/dist/iconify.min.js">
+
 </head>
 
 <body>
@@ -17,10 +20,20 @@
     </div>
     <div class="social-icons">
       <a href="#">🔍</a>
-      <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" target="_blank" class="instagram-button">
-        <i class="fab fa-instagram"></i>
-  Visit Instagram </a>  
-      <a href="#">🔗</a>
+      <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA=="  class="hideOnMobile" class="social-icon" target="_blank">
+        <i class="fab fa-instagram" ></i>
+      </a>
+      
+      <!-- TikTok Icon -->
+      <a href="https://www.tiktok.com/@diversified_ke?_t=8sFI5LR6P25&_r=1"  class="hideOnMobile" class="social-icon" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      
+      <!-- X (Twitter) Icon -->
+      <a href="https://x.com/diversified_ke?t=T3dMThBhz4RlYC1koGQbjw&s=08"   class="hideOnMobile" class="social-icon" target="_blank">
+        <i class="fab fa-x"></i> <!-- Use 'fa-x' for the X platform icon -->
+      </a> 
+      
     </div>
   </div>
 
@@ -47,7 +60,7 @@
       <li class = "hideOnMobile" ><a href="contact.html">Contact Us</a></li>
        <a href="#" class="donate-button" role="button">Donate</a>
       
-      <li onclick = showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 0 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      <li onclick = showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 0 960 960" width="40px"  fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
     
     </ul>
       
@@ -62,13 +75,12 @@
 </header>
 
 
-
 <!-- Hero Section -->
 <section id="about" class="story">
   <div class="story-content">
-    <h1 class="st">Diversified KE</h1>
-    <h2 class="st">About Us</h2>
-    <p class="st">Welcome to Diversified Kenya, an Organization funded in 2022 to adress the unique challanges faced by LBQ persons.
+    
+    <h2 >About Us</h2>
+    <p class ="st">Welcome to Diversified Kenya, an Organization funded in 2022 to adress the unique challanges faced by LBQ persons.
       We are passionate about creating a safe and inclusive enviroment for all members of the community.
       Our mission is to educate, sensitize and empower individuals to live their lives without fear,
       discrimination or prejudice. We believe that everyone deserves the right to love and live openly and authentically.
@@ -85,7 +97,7 @@
 
   <div class="mision">
     
-    <h2 >Our Mission</h2>
+    <h3 class="coll" >Our Mission</h3>
     <p >
       We strive to provide a safety net for queer youth in Kenya, offering economic empowerment, mental health
       resources, harm reduction, and community care to help them build mental fortitude and navigate their
@@ -96,7 +108,7 @@
  
   <div class="vision">
     <!-- <img src="favicon.jpg" class="vision-image" alt="Mision Image">-->
-    <h2 >Our Vission</h2>
+    <h3 class="coll" >Our Vission</h3>
     <p >
       Empower queer youth to thrive, reclaim their stories, and build sustainable lives through resilience
        and community support.
@@ -105,10 +117,10 @@
   </div>
 </section>
 
-<section id="team" class="team-section">
+<section id="colla" class="collaboration">
   
- <div class= "team-content">
-   <h2>Collaborations</h2>
+ <div class= "collaboration-content">
+   <h3 class="coll" >Collaborations</h3>
    <p>We partner with key organizations like Mental 360 for mental health services and support for our
     Sobriety Clinic. Other collaborators include HOLAAFRICA, the National Gay and Human Rights
     Commission, Traveling Wakili, Queer Wellness Circle, and Nadharia Kenya. These partnerships
@@ -117,8 +129,8 @@
    <img src="Div Team.jpg" class="team-image" alt="Team Image">
 </section>
 
-<section id="keyObjectives" class="objectives">
-  <h2 class="hhh">Key Achievements</h2>
+<section id="keyachivements" class="achievements">
+  <h2 class="ach">Key Achievements</h2>
 
   <ul>
     <li>
@@ -175,23 +187,30 @@
   <p> LOCATION: Nextgen Mall, 5th Floor, Mombasa Road </p>
 </td>
 <td > 
-  <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" class="socials"> <!--target="_blank" class="instagram-button"-->
-  <i class="fab fa-instagram"></i>
-Instagram </a>
-<br> 
-<a href="https://www.tiktok.com/@diversified_ke?_t=8sFI5LR6P25&_r=1" class="socials">
-  <i class="fab fa-tiktok"></i>
-TikTok </a>
-<br>
-<a href="Check out Diversified Kenya (@diversified_ke): https://x.com/diversified_ke?t=T3dMThBhz4RlYC1koGQbjw&s=08 " class="socials">
-  <i class="fab fa-X"></i>
-X </a>
+ 
+  
+    <!-- Instagram Icon -->
+    <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" class="social-icon" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    
+    <!-- TikTok Icon -->
+    <a href="https://www.tiktok.com/@diversified_ke?_t=8sFI5LR6P25&_r=1" class="social-icon" target="_blank">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    
+    <!-- X (Twitter) Icon -->
+    <a href="https://x.com/diversified_ke?t=T3dMThBhz4RlYC1koGQbjw&s=08" class="social-icon" target="_blank">
+      <i class="fab fa-x"></i> <!-- Use 'fa-x' for the X platform icon -->
+    </a>
+ 
 
 </td>
 </tr>
 
   </table>
 </section>
+
 
 
 
@@ -206,5 +225,3 @@ X </a>
   <script src="script.js"></script>
   </body>
   </html>
-
-
