@@ -1165,7 +1165,11 @@ flex-wrap: wrap;
   width: 100%; }  
   .majivuno-image{
        
-    max-width: 100%; }  
+    max-width: 100%; }
+  .paragraph{
+     
+      text-align: justify;
+      }   
 .playdate{
 flex-direction: column;
 align-items: center;
