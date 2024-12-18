@@ -22,9 +22,9 @@
   <header>
     <!-- Top bar with language toggle -->
     <div class="top-bar">
-      <div class="language">
+      <!--<div class="language">
         <a href="#">Swahili</a> | <a href="#">English</a>
-      </div>
+      </div>-->
       <div class="social-icons">
         <a href="#">🔍</a>
         <a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA=="  class="hideOnMobile" class="social-icon" target="_blank">
@@ -91,22 +91,60 @@
    <!-- <img src="Div Team.jpg" class="hero-image" alt="Team Image"> -->
   
   </section> 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const images = [
+        'queerjoy.webp',
+  'team.jpg',
+  'art.webp',
+  'dating.webp',
+  'empowerment.webp',
+  'football.jpg', 
+  'forhero.webp',
+  'joy.webp',
+  'moreart.webp',
+  'queer.webp',
+  'empowerment.webp',
+  'sex.webp',
+   'wellness1.jpg',     
+  'queerjoy.webp',
+  'joy.webp',
+        
+      ];
+
+      let currentImageIndex = 0;
+
+      function changeHeroBackground() {
+        const heroSection = document.querySelector('.hero');
+        if (heroSection) {
+          heroSection.style.background = `url(${images[currentImageIndex]}) no-repeat center center/cover`;
+          currentImageIndex = (currentImageIndex + 1) % images.length;
+        }
+      }
+
+      setInterval(changeHeroBackground, 2000);
+    });
+  </script>
 
   <section id="us" class="hero1">
     <div class="hero-content">
-    
+       <h1 class="ach" > Our Story</h1>
       <p class="hero1-content">Everyone deserves a circle of inclusion and influence, but it is up to you to create it.</p>
       <br> <p class="hero1-content"> Welcome to Diversified Kenya, an LBQ organization dedicated to empowering, educating,
        and sensitizing the community. Our misssion is to provide resources and to support those who need
       it most.</p> <br> <p class="hero1-content"> We create a safe and inclusive enviroment where everyone is welcome. 
       We believe in creating awareness about the unique challanges that the LBQ community faces,
       and we are commited to bridging the gap between community and society as a whole.</p> <br>
-      <p class="hero1-content">Contact us today to learn more about how we empower you.</p>
-      <br>
+      <p class="hero1-content">Click more to learn more about us and how we empower you.</p>
+      <p> <br> </p>
+
+     <a href="#" class="about-button" role="button">More</a>  
      
       
     </div>
+     
     <img src="team.jpg" class="hero-image" alt="Team Image">
+    
   </section> 
 
   
@@ -135,61 +173,67 @@
     </ul>
   </section>
   
- <!-- Ways we Help  -->
+ <!-- Programs  -->
   <section class="waysWeHelp" aria-labelledby="waysWeHelp-title">
-    <h2 class="wwh">Ways We Help</h2>
+    <h2 class="ach">Key Programs</h2>
     <p class="waysWeHelp-description">
       Furthering our cause is the most important goal of our organization. We seek to support, empower, 
-      and provide high-quality resources to the community. Learn more about what we do below.
+      and provide high-quality resources to the community. Some of our programs include:.
     </p>
     <div class="waysWeHelp-cards">
       <div class="card">
-        <img src="ft.jpg" alt="Art supplies and a plaid cloth" class="card-image1">
-        <h3 class="card-title">Wellness</h3>
-        <p class="card-description">Encourage conscious living</p>
+        <img src="empowerment.webp" alt="Art supplies and a plaid cloth" class="card-image1">
+        <h3 class="card-title">Economic Empowerment</h3>
+        <p class="card-description">Woodwork workshop, financial literacy, career development, and
+          entrepreneurship support, with peer-led skill swaps for crafts like soap-making, wig-making,
+          and online business management</p>
       </div>
       <div class="card">
-        <img src="hero.jpg" alt="People in a discussion on a picnic blanket" class="card-image2">
-        <h3 class="card-title">Dialogic Teaching</h3>
-        <p class="card-description">Conversation activism and learning by addresiing intellectual
-          , emotional, physical and social development of individuals through open dialogue.
-        </p>
+        <img src="arttherapy.webp" alt="People in a discussion on a picnic blanket" class="card-image2">
+        <h3 class="card-title"> Art as Healing</h3>
+        <p class="card-description">Workshops and projects that use art for emotional healing, self-expression,
+          and mental wellness. </p>
       </div>
       <div class="card">
-        <img src="football.jpg" alt="Three individuals posing outdoors" class="card-image3">
+        <img src="queer.webp" alt="Three individuals posing outdoors" class="card-image3">
         <h3 class="card-title">Queer Joy</h3>
-        <p class="card-description">Speak to our authenticity</p>
+        <p class="card-description">Celebrating queer identity through body positivity, sexual health education, and
+          inclusive events fostering self-love and community connection.</p>
       </div>
     </div>
+
+    <p class="waysWeHelp-description">
+      Find out more about our programs by clicking more</p>
+    <a href="#" class="program-button" role="button">More</a>  
+    <p> <br> </p>
   </section>
 
   <!-- team Section -->
   <section id="team" class="team-section">
-    
     <div class= "team-content">
-      <h3>Meet The Team</h3>
+      <h3 class="ach">Meet The Team</h3>
       <p>At Diversified Kenya our team is dedicated to creating a world in which all LBQ individuals 
         live their lives to the fullest. Through our work in sensitization, resources and mentall health,
-      we strive to empower members of the LBQ community and foster a more inclusive society</p>
+      we strive to empower members of the LBQ community and foster a more inclusive society. Meet our team</p>
       </div>
   </section>
   <section class="teamcards">
       <div class="waysWeHelp-cards">
         <div class="card">
-          <img src="favicon.jpg" alt="Art supplies and a plaid cloth" class="card-image1">
+          <img src="Koome.webp" alt="Art supplies and a plaid cloth" class="card-image1">
           <h3 class="card-title"> Gatwiri Koome-Founder</h3>
           <p class="card-description">Advocate for queer rights, emphasizing the need for funding and
             financial empowerment in the community.</p>
         </div>
         <div class="card">
-          <img src="favicon.jpg" alt="People in a discussion on a picnic blanket" class="card-image2">
+          <img src="brendav.webp" alt="People in a discussion on a picnic blanket" class="card-image2">
           <h3 class="card-title">Brenda Viola-Communications Officer</h3>
           <p class="card-description">Manages communication strategies and public
             relations.         
           </p>
         </div>
         <div class="card">
-          <img src="favicon.jpg" alt="Three individuals posing outdoors" class="card-image3">
+          <img src="mwende.webp" alt="Three individuals posing outdoors" class="card-image3">
           <h3 class="card-title">Mwende Mutuku-Operations</h3>
           <p class="card-description">Oversees daily operations and program execution</p>
         </div>
@@ -203,19 +247,65 @@
   
 
   <!-- News & Media Section -->
-  <section id="news" class="media-section">
-    
-      <h3>News & Media</h3>
-      <p >Stay up-to-date with the latest news and media coverage from our programs.</p>
-  
-     <div class="media"> 
-    <img src="hero.jpg" class="media-image1" alt="Team Image">
-    <img src="football.jpg" class="media-image2" alt="Team Image">
-    <img src="hike.jpg" class="media-image3" alt="Team Image">
-    <img src="wellness.jpg" class="media-image4" alt="Team Image">
-  </div>
-  </section>
+   <section class="news"> 
 
+  <h2 class="ach">News, Media and Updates</h2>
+  <p class="paragraph">Stay up-to-date with the latest news and media coverage from our programs.</p>
+  
+  <section id="queermass" class="mass">
+    <div class="mass-content"> 
+    <h2 class="ach">Queer Mass</h2>
+    <p class="paragraph">It is that time of the year when Diversified kenya steps
+      into our santa boots, ready to sprinkle some queer magic over the festive season! 
+      We pride ourselves on reclaiming and queering christmass, turning it into
+      affirming, yassified and joyfull celebration for our vibrant LGBTQIA+ 
+      community. We know how tricky this time of the year can be for many of us, 
+      but thats why we are here- to create a joyfull family we all deserve,<br> 
+   </p>
+</div>
+ 
+  <img src="queermass.jpg" class="mass-image" alt="Team Image">
+
+</section>
+
+<section id="play1" class="playdate1">
+  <img src="playdate.jpg" class="playdate-image" alt="Team Image">
+  <div class="playdate-content"> 
+  <h2 class="ach">Outdoor Play Date</h2>
+  <p class="paragraph">Every human deserves to let their inner child run buck wild
+    and this event delivered just that, We figured that it had been eons
+   since we had put together a lil sth sth. So we decided to take the fun outside and boi!
+  did we turn up and out.<br> We offered a welcoming space to relax, laugh and for people to let go. 
+  We came together as a community to release pent up emotions, connect, and recharge
+with play and intentional fun.<br> We played football, basketball, kati, ropes among other things.
+Our inner children had a blast and we left with our hearts full </p>
+</div>
+
+</section>
+
+<section id="majivuno" class="majivunoDay">
+  <div class="majivuno-content"> 
+  <h2 class="ach">Majivuno and Wellness Sports Day</h2>
+  <p class="paragraph">This event was not just about sports, 
+    it was about  celebrating human rights and the power of sports as a 
+  tool for development, inclusion and mental wellness.<br> 
+There was a mental check in by diversified_ke and clinic screenings by Leha Kenya addresiing
+ a lovely entertaiment by<a href="https://www.instagram.com/_dj_jflow/profilecard/?igsh=eDBpMmFiaXlibDI4" class="social-handle" target="_blank">
+  @_dj_jflow
+</a>  <br> Attenddes were offered transport to and from the venue. We enjoyed a hearty lunch and celebrated as a community! <br>
+This was a great and Successful collaboration between<a href="https://www.instagram.com/nadharia.cbo/profilecard/?igsh=MWEybWxodHpuY3ZqMw==" class="social-handle" target="_blank">@nadharia.cbo</a>,<a href="https://www.instagram.com/leha_kenya/profilecard/?igsh=MWk5cGhlaXRjdjU4cQ==" class="social-handle" target="_blank">@leha_kenya
+</a>and<a href="https://www.instagram.com/diversified_ke/profilecard/?igsh=MXYyZHY0OXJ0ajg4cA==" class="social-handle" target="_blank">@diversified_ke</a> </p>
+</div>
+
+<img src="majivuno.jpg" class="majivuno-image" alt="Team Image">
+
+</section>
+
+  <p class="paragraph"> <br> </p>
+<a href="#" class="media-button" role="button">More</a> 
+<p class="paragraph"> <br> </p> 
+
+</section>
   
 
   
@@ -229,13 +319,13 @@
   </tr>
   <tr>  
     <td> 
-      <p>Office Number 254701820823 </p> <br>
-      <p>Number 254701820823 </p> <br>
-       <p>Office  254701820823 </p>
+      <p>Founder +254701820823 </p> <br>
+      <p>Operations +25471269705 </p> <br>
+      
   </td>
   <td> <p>P.O BOX 12345-00100 Nairobi-Kenya </p> 
     <br>
-    <p> LOCATION: Nextgen Mall, 5th Floor, Mombasa Road </p>
+    <p> Location: Nextgen Mall, 5th Floor, Mombasa Road </p>
   </td>
   <td > 
    
