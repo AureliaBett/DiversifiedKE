@@ -158,15 +158,16 @@ background-color: #D63656; /* Slightly darker on hover */
   justify-content: center; /* Center vertically */
   text-align: center; /* Ensures inline text is centered */
 
-  background: url(team.jpg) no-repeat center center/cover; /* Background image */
+  background: url(queerjoy.webp) no-repeat center center/cover; /* Background image */
   margin: 0;
   border-bottom: 5px solid; /* Border width */
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  transition: background-image 1s ease-in-out;
 }
 
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2rem;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:rgb(59, 59, 59);
   font-weight: bold;
@@ -190,13 +191,17 @@ background-color: #D63656; /* Slightly darker on hover */
 }*/
 
 .hero h2 {
-  font-size: 3rem;
+  font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
    color:rgb(59, 59, 59);
    font-weight: bold;
    font-style: italic;
    background-color: #ccc;
 }
+.herosec {
+  padding: 100px;
+  
+  }
 
 
 .hero1 {
@@ -204,7 +209,7 @@ background-color: #D63656; /* Slightly darker on hover */
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  
+  padding: 10px 50px;
   background: #2b2a2a;
   border-bottom: 5px solid; /* Border width */
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
@@ -214,23 +219,39 @@ background-color: #D63656; /* Slightly darker on hover */
   .hero-content {
     max-width: 100%;
     text-align: center;
-    
     }
     
   .hero1-content {
     max-width: 100%;
-    text-align: center;
+    text-align: justify;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-    }
-
+  }
+    
 .hero-image {
 max-width: 40%;
-
+padding: 0px 0px 0px 15px;
 border-radius: 20px;
 }
-
+.about-button {
+  background: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  padding: 10px 20px 10px ;
+  height: fit-content;      
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .about-button:hover {
+    background-color: gray;
+  }
 
 
 /*.content-section {
@@ -239,11 +260,11 @@ background: #111;
 border-bottom: 5px solid;
 border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;*/
 .objectives {
-  text-align: center;
+  text-align: justify;
   list-style: none; /* Remove default list styles */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
-  padding: 50px 20px;
+  padding: 10px 50px 20px;
   background: #2b2a2a;
   border-bottom: 5px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
@@ -253,8 +274,13 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
 .hhh{
   font-size: 1.2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: justify;
 }
-
+.ach{
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: justify;
+}
 .objectives ul {
   margin-left: 20px;
 }
@@ -281,7 +307,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 50px 20px;
+padding: 10px 50px 20px;
 background: #2b2a2a;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 1.2rem;
@@ -292,6 +318,8 @@ font-size: 1.2rem;
   border-bottom: 5px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
   color: white;
+  gap: 4rem;
+  padding: 4rem;
   }
 
 
@@ -310,6 +338,7 @@ font-size: 1.2rem;
  text-align: center;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  font-size: 1.2rem;
+
    }
    
 .team-content p {
@@ -318,6 +347,7 @@ font-size: 1.2rem;
   color: white; 
   border-radius: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
   }
   .coll{
     color: white; 
@@ -391,6 +421,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 max-width: 100%;
 margin: 0 auto 2rem;
 font-size: 1.2rem;
+text-align: justify;
 }
 
 .waysWeHelp-cards {
@@ -408,6 +439,9 @@ overflow: hidden;
 width: 100%;
 max-width: 300px;
 text-align: center;
+}
+.card:hover{
+  background-color: #928e8e; 
 }
 
 .card-image1 {
@@ -433,9 +467,31 @@ color: #ccc;
 
 .card-description {
 font-size: 1rem;
-
+text-align: justify;
 margin: 0 1rem 1.5rem;
 }
+.program-button {
+  background: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  padding: 10px 20px  ;
+  height: fit-content;      
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .program-button:hover {
+    background-color: gray;
+  }
+
+
+
+
 .media-section{
 padding: 10px 10px;
 background: #2b2a2a;
@@ -453,7 +509,30 @@ text-align: center;
 font-size: 1.2rem;
 color:white;
 }
-
+.media-button {
+  background: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  padding: 10px 20px  ;
+  height: fit-content;      
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .media-button:hover {
+    background-color: gray;
+  }
+.news{
+  justify-content: center;
+  text-align: center;
+  border-bottom: 5px solid;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+}
 .media {
  display: flex;
  flex-wrap: wrap;
@@ -700,19 +779,24 @@ color: black;
       color: white; 
       text-align: center;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      
+      padding: 10px;
       background: #2b2a2a;
       border-bottom: 5px solid; 
       border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
       
         }
-        
+      .collab-image{
+        max-width: 60%;
+        padding: 0px 0px 0px 15px;
+        border-radius: 20px;  
+      }  
      .collaboration-content p {
        font-size: 1.2rem;
        margin-bottom: 20px;
        color: white; 
        border-radius: 10px;
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: justify;
        }
        .coll{
          color: white; 
@@ -760,6 +844,7 @@ color: black;
           font-weight: bold;
           font-style: normal;
         }
+        
 
 /*DonatePage*/
 
@@ -770,7 +855,7 @@ color: black;
 align-items: center;
 justify-content: space-between;
 padding: 50px 20px;
-background: #2b2a2a;
+
 border-bottom: 5px solid; 
 border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 }
@@ -778,7 +863,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
 .donateHere {
   text-align: center;
   padding: 2rem;
-  background: #2b2a2a;
+
   border-bottom: 5px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
   }
@@ -796,7 +881,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15rem;
+  gap: 2rem;
   }
   .paypall{
     background: rgb(59, 14, 223);
@@ -813,7 +898,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 100%;
-  max-width: 300px;
+  max-width: 100%;
   text-align: center;
   }
   .card2 {
@@ -822,16 +907,16 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 100%;
-    max-width: 300px;
+    max-width: 50%;
     text-align: center;
     }
     .card3 {
-      background-color: rgb(247, 162, 214);
+      background-color:  rgb(120, 250, 120);
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       width: 100%;
-      max-width: 300px;
+      max-width: 100%;
       text-align: center;
       }
       .card-title1 {
@@ -882,6 +967,61 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
           background-color: #218838;
         }
 
+        .mass1{
+    
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          text-align: center;
+          font-size: 1.2rem;
+          
+          
+          }
+      .mass-content1 {
+        max-width: 100%;
+        text-align: justify;
+        color:black;
+            font-weight: bolder;
+            background-color: #928e8e;
+        
+           }
+           .mass-content1 p {
+           padding: 10px;
+            text-align: justify;
+            color:black;
+            font-weight: bolder;
+          
+               } 
+      .mass-content1 h2 {
+        
+         color:black;
+       
+       
+            }     
+      .mass-image1{
+       max-width: 50%;
+      max-height: 50%;
+      }
+      .mass-content1 ul {
+        margin-left: 20px;
+
+      }
+      
+      .mass-content1 li {
+        margin-bottom: 15px;
+        position: relative;
+        list-style: none; 
+        font-weight: bolder;
+        font-size: 1.2rem;
+      }
+      
+      .mass-content1 li::before {
+        content: "★ "; /* Symbol to define the list item */
+        color: gold; /* Customize the symbol color */
+        font-size: 18px; /* Adjust symbol size */
+        margin-right: 10px;
+      }
+      
         /* News and media*/
 
 
@@ -911,6 +1051,10 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
     text-align: center;
     
     }
+    .majivuno-content p {
+      padding: 10px;
+      text-align: justify;
+      }
 .paragraph{
   color:white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -935,10 +1079,46 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
   text-align: center;
  
   }
+  .mass{
+    background: #2b2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    
+    }
+.mass-content {
+  max-width: 100%;
+  text-align: center;
+     }
+     .mass-content p {
+     padding: 10px;
+      text-align: justify;
+         }   
+.mass-image{
+ max-width: 50%;
+
+}
+  .playdate1{
+    background: #2b2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    
+    }
 .playdate-content {
   max-width: 100%;
   text-align: center;
      }
+     .playdate-content p {
+      padding: 10px;
+      text-align: justify;
+         }
 .playdate-image{
  max-width: 50%;
 
@@ -946,8 +1126,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
 .hike{
   
   background: #2b2a2a;
-  border-bottom: 5px solid;
-  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -956,15 +1135,28 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
   text-align: center;
  
   }
-.hike-content {
-  max-width: 100%;
-  text-align: center;
+.hike-content p {
+  padding: 10px;
+      text-align: justify;
      }
+     .hike-content {
+      max-width: 100%;
+      text-align: center;
+         } 
 .hike-image{
  max-width: 50%;
 
 }
-
+.media-icons{
+  padding: 10px 10px;
+  background: #2b2a2a;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+}
 
  .media-section{
   padding: 10px 10px;
@@ -973,7 +1165,7 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
   color:white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
+  text-align: justify;
   font-size: 1.2rem;
   }
           
@@ -984,8 +1176,22 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
   color:white;
   }
 
+  .social-iconm {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: #fff; /* Default icon color */
+    margin: 0 10px; /* Add space between icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .social-iconm:hover {
+    color: #ff6600; /* Change icon color on hover */
+  }
 
-          
+ .wrapper-main p {
+  text-align: justify;
+ }         
   .media {
     display: flex;
     flex-wrap: wrap;
@@ -1036,34 +1242,64 @@ border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo
       display: none;
   }
 
-  .donateHere-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4rem;
-    }
-    .waysWeHelp-cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-   max-width: 100%;}
+  
 
+.donateHere-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   gap: 4rem;
+  }
+
+.waysWeHelp-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 100%;
+  padding: 0px;
+}
+.waysWeHelp-description{
+  text-align: justify;
+  font-size: 1.0rem;
+  padding: 0px;
+}
+.waysWeHelp{
+    padding: 15px 15px;
+  }
+
+.card{
+ max-width: 100%;
+ background-color: #2b2a2a; 
+}
+.card:hover{
+  
+  background-color: #928e8e; 
+ }
 .program-cards {
 display: flex;
 flex-wrap: wrap;
+
 }
+
 .team-section{
   flex-direction: column;
   align-items: center;
   width: 100%;
- 
-  
+  padding:10px 10px 0px 0px;
 }
-.team-image {
-  max-width: 100%;
-  border-radius: 10px;
-}   
+.team-content{
+  text-align: justify;
+    font-size: 1.0rem;
+}
+.team-content p{
+     font-size: 1.0rem;
+}
+
+.card-description{
+  text-align: justify;
+  font-size: 1.0rem; 
+} 
 
 .hero {
   padding: 30px 10px;
@@ -1074,10 +1310,7 @@ flex-wrap: wrap;
   width: 100%;
   padding: 50px 0px;
   gap: 4px}
-  
-  
-    
-
+ 
   .media-image{
     max-width: 100%;
     border-radius: 10px;
@@ -1086,7 +1319,10 @@ flex-wrap: wrap;
 .story {
   padding: 30px 10px;
 }
-
+.story-content{
+  text-align: justify;
+  font-size: 1.0rem; 
+}
 .more-section {
   padding: 30px 10px;
 }
@@ -1094,11 +1330,37 @@ flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 10px 20px;
 }
+.hero1-content {
+  max-width: 100%;
+  text-align: center;
+  font-size: 1.0rem;
+  text-align: justify;
+  }
 .hero-image {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
+  padding: 10px 0px 0px 0px; 
 } 
+.ach{
+  text-align: justify;
+  font-size: 1.0rem;
+}
+.objectives {
+  text-align: justify;
+  list-style: none; /* Remove default list styles */
+  padding: 10px 20px;
+  background: #2b2a2a;
+  font-size: 1.0rem;
+}
+.achievements {
+  text-align: justify;
+  list-style: none; /* Remove default list styles */
+  padding: 10px 20px;
+  background: #2b2a2a;
+  font-size: 1.0rem;
+}
 .contactUs-section {
     padding: 0px; /* Reduce padding for smaller screens */
   }
@@ -1106,9 +1368,14 @@ flex-wrap: wrap;
   .table-content {
     width: 100%; /* Make table take full width */
     border-collapse: collapse; /* Adjust table layout for smaller screens */
-   
+   font-size: 1.0rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-
+  .table-content p {
+    
+   font-size: 1.0rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   .table-content th, .table-content td {
   /* Stack table rows for smaller screens */
     text-align: left; /* Align text to the left for better readability */
@@ -1153,22 +1420,71 @@ flex-wrap: wrap;
       margin: 0 auto; /* Center the content */
       height: auto; /* Allow content to adjust height naturally */
     } 
-.majivunoDay{
-  flex-direction: column;
-  align-items: center;
-  width: 100%; }  
+
+    .news{
+      padding: 10px;
+    }
+    .paragraph{
+      text-align: justify;
+      font-size: 1.0rem;
+      } 
+      .collaboration-content p{
+        text-align: justify;
+      font-size: 1.0rem;
+      }
+      .mass{
+        flex-direction: column;
+         align-items: center;
+         width: 100%;
+         text-align: justify;
+         padding: 10px 0px 0px 0px;
+       }  
+     .mass-image{
+          
+       max-width: 100%; } 
+       .mass1{
+        flex-direction: column;
+         align-items: center;
+         width: 100%;
+         text-align: justify;
+         padding: 10px 0px 0px 0px;
+       }  
+      .mass-content1{ 
+      background-color: #928e8e;}
+     .mass-image1{
+          
+       max-width: 100%; } 
+      .majivunoDay{
+     flex-direction: column;
+      align-items: center;
+      width: 100%;
+      text-align: justify;
+      padding: 10px 0px 0px 0px;
+    }  
   .majivuno-image{
        
-    max-width: 100%; }
-  .paragraph{
+    max-width: 100%; } 
+    .paragraph{
      
       text-align: justify;
-      }   
+      font-size: 1.0rem;
+      }        
 .playdate{
-flex-direction: column;
+
 align-items: center;
 width: 100%;
-flex-direction: column-reverse;  }  
+flex-direction: column-reverse;
+text-align: justify;
+padding: 10px 0px 0px 0px;
+} 
+.playdate1{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-direction: column-reverse;
+  text-align: justify;
+  padding: 10px 0px 0px 0px;
+  }   
 
   .playdate-image{
          
@@ -1176,10 +1492,14 @@ flex-direction: column-reverse;  }
   .hike{
     flex-direction: column;
     align-items: center;
-    width: 100%; }  
+    width: 100%; 
+    flex-direction: column-reverse;
+    padding: 10px;
+  }  
     .hike-image{
-         
-      max-width: 100%; } 
+      text-align: justify;     
+      max-width: 100%; 
+    } 
 
 .vision-image{
   max-width: 70%;
@@ -1195,14 +1515,72 @@ flex-direction: column-reverse;  }
   align-items: center;
 
 } 
+.mision p  {
+  text-align: justify;
+      font-size: 1.0rem;
+} 
 .vision  {
   flex-direction: column;
       padding: 10px;
       align-items: center;
     } 
-  .achievements {
-          text-align: justify;
-          }
+    .vision p {
+      text-align: justify;
+      font-size: 1.0rem;
+        } 
+    .hero h2 {
+      font-size: 0.8rem;
+        }    
+    .hero h1  {
+      font-size: 1.5rem;
+    }    
+.herosec{
+ padding: 50px;
+  display: flex;
+  justify-content: center;  /* Horizontally center the content */
+  align-items: flex-end; 
+  flex-direction: column;
+} 
+.collab-image{
+  max-width: 100%;
+
+  border-radius: 20px;  
+}  
+.wrapper-main p{
+  text-align: justify;
+  font-size: 1.0rem;
+}  
+.mass-content1 li {
+  color:black;
+            font-weight: bolder;
+            font-size: 1.0rem;
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+ .donateHere p{
+  color:black;
+            font-weight: bolder;
+            font-size: 1.0rem;
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .card1 {
+  background-color: #a5b3fd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  }
+ 
+    .card3 {
+      
+    
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      }   
 }
 
 
