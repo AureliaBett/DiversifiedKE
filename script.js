@@ -1,3 +1,4 @@
+
 // Smooth Scroll for internal links
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('a[href^="#"]').forEach(link => {
@@ -61,6 +62,51 @@ document.querySelector('.donate-button').addEventListener('click', function(even
   // Redirect user to a payment page
   window.location.href = "payment.html";
 });
+//about us
+document.querySelector('.about-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Replace with your donation form or modal logic
+ // alert('Thank you for your interest in donating!');
+});
+
+document.querySelector('.about-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Redirect user to a payment page
+  window.location.href = "about.html";
+})
+
+//program
+document.querySelector('.program-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Replace with your donation form or modal logic
+ // alert('Thank you for your interest in donating!');
+});
+
+document.querySelector('.program-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Redirect user to a payment page
+  window.location.href = "programs.html";
+})
+//media
+document.querySelector('.media-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Replace with your donation form or modal logic
+ // alert('Thank you for your interest in donating!');
+});
+
+document.querySelector('.media-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default navigation
+
+  // Redirect user to a payment page
+  window.location.href = "media.html";
+})
+
+
 // scripts.js
 function changeFavicon(url) {
   const favicon = document.querySelector("link[rel='icon']");
@@ -118,5 +164,35 @@ document.getElementById('header').innerHTML = fetch('header.html')
 .then(html => document.getElementById('header').innerHTML = html);
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  const images = [
+    'queerjoy.webp',
+'team.jpg',
+'art.webp',
+'dating.webp',
+'empowerment.webp',
+'football.jpg', 
+'forhero.webp',
+'joy.webp',
+'moreart.webp',
+'queer.webp',
+'empowerment.webp',
+'sex.webp',
+    'team.jpg',
+    'queerjoy.webp',
+    'joy.webp',
+    
+  ];
 
+  let currentImageIndex = 0;
 
+  function changeHeroBackground() {
+    const heroSection = document.querySelector('.hero');
+    if (heroSection) {
+      heroSection.style.background = `url(${images[currentImageIndex]}) no-repeat center center/cover`;
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+    }
+  }
+
+  setInterval(changeHeroBackground, 2000);
+})
